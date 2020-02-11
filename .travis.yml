@@ -34,7 +34,7 @@ deploy: # 배포
     region: ap-northeast-2
     wait-until-deployed: true
     on:
-      repo: wkdaudwn11/node-cd-ci-test
+      repo: wkdaudwn11/node-ci-cd-test
       branch: master
 notifications: # 성공 실패 여부 알림
   email:
