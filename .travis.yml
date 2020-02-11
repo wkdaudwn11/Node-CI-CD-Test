@@ -21,7 +21,7 @@ deploy: # 배포
     local_dir: deploy # deploy 디렉터리에 있는 파일을 s3로 업로드 하겠다는 의미
     wait-until-deployed: true
     on:
-      repo: wkdaudwn11/node-ci-cd-test #Github 주소
+      repo: wkdaudwn11/Node-CI-CD-Test #Github 주소
       branch: master
   - provider: codedeploy # AWS CodeDeploy를 의미
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
@@ -34,7 +34,7 @@ deploy: # 배포
     region: ap-northeast-2
     wait-until-deployed: true
     on:
-      repo: wkdaudwn11/node-ci-cd-test
+      repo: wkdaudwn11/Node-CI-CD-Test
       branch: master
 notifications: # 성공 실패 여부 알림
   email:
