@@ -1,6 +1,6 @@
-# node-koa-server
+# node-ci-cd-test
 
-> node-koa-server로 만들어진 튜토리얼 리스트입니다
+> node-ci-cd-test로 만들어진 튜토리얼 리스트입니다
 
 #### Nginx를 사용하여 프록시 서버 만들기
 
